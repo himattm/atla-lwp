@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Color">
+        <ListPreference
+            android:defaultValue="#4066b1"
+            android:entries="@array/colorListKeys"
+            android:entryValues="@array/colorListValues"
+            android:key="colorListPref"
+            android:title="Pick your favorite color" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Fade Speed">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/fadeSpeedKeys"
+            android:entryValues="@array/fadeSpeedValues"
+            android:key="fadeSpeed"
+            android:title="Set the Avatar State Fade Speed." />
+    </PreferenceCategory>
+
+</PreferenceScreen> 

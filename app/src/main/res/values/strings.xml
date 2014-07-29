@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATLA Live Wallpaper</string>
+    <string name="app_name_settings">Settings: ATLA Live Wallpaper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="wallpaper_desc">Aang fades in and out of the Avatar State</string>
+
+    <string-array name="colorListKeys">
+        <item>Water (Blue)</item>
+        <item>Fire (Red)</item>
+        <item>Earth (Green)</item>
+        <item>Air (Yellow)</item>
+        <item>Pink</item>
+        <item>Teal</item>
+        <item>Purple</item>
+        <item>White</item>
+        <item>Gray</item>
+    </string-array>
+
+    <string-array name="colorListValues">
+        <item>#4066b1</item>
+        <item>#b15240</item>
+        <item>#66b140</item>
+        <item>#b18b40</item>
+        <item>#b14066</item>
+        <item>#40b18b</item>
+        <item>#5240b1</item>
+        <item>#ffffff</item>
+        <item>#333333</item>
+    </string-array>
+
+    <string-array name="fadeSpeedKeys">
+        <item>Slow (Default)</item>
+        <item>Medium</item>
+        <item>Fast</item>
+        <item>Always On</item>
+        <item>Always Off</item>
+    </string-array>
+
+    <string-array name="fadeSpeedValues">
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>Always On</item>
+        <item>Always Off</item>
+    </string-array>
+
+</resources>
